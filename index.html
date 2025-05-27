@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Yhun Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="bg-index">
+    {% include 'header.html' %}
+    <main>
+    <div class="container">
+        <h2 style="font-size: 3.5rem;">Welcome to My Portfolio</h2>
+        <p style="font-size: 2.5rem;">
+            I'm <strong>Yhun</strong>, a web developer passionate about creating modern, efficient, and user-focused web experiences. Take a look around to see my latest projects and what I’ve been building!
+        </p>
+    </div>
+
+    </main>
+    {% include 'footer.html' %}
+</body>
+</html>

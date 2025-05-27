@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+/* Responsive Sizes */
+@media (max-width: 576px) {
+    body { font-size: 14px; }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    body { font-size: 16px; }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    body { font-size: 18px; }
+}
+@media (min-width: 993px) {
+    body { font-size: 20px; }
+}
+
+/* Background images */
+.bg-index {
+    background: url('/static/images/img1.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.bg-about {
+    background: url('/static/images/img2.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.bg-contact {
+    background: url('/static/images/img3.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #a5bdbb;
+}
+
+nav a.active {
+    background-color: #6ea8a3;
+    color: white;
+}
+.container {
+    background-color: transparent;
+    /* keep padding and other styles */
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px; /* optional */
+    box-shadow: none; /* remove shadow if you want */
+    color: #000; /* keep text color black */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Bootstrap-style blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

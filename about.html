@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About - Yhun Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="bg-about">
+    {% include 'header.html' %}
+    <main>
+        <div class="container">
+            <h2 align="left" style="font-size: 2.5rem;">About Me</h2>
+            <p align="left" style="font-size: 1.5rem;">Hello, I'm <strong>Yhun Belew</strong> — a passionate and creative web developer dedicated to building user-friendly, efficient, and modern web experiences. Whether you're here to explore my latest projects, learn about my skills, or just say hello, I'm glad you're here. Let's build something great together!</p>
+
+            <p align="left" style="font-size: 1.5rem;">My journey began with a Bachelor's degree in Mechanical Engineering from Bahir Dar University and early roles in customer service and security, where I built strong communication and problem-solving skills. Over time, I earned an Engineer-in-Training (EIT) certification in California and expanded my skill set into data analytics and software development.</p>
+
+            <p align="left" style="font-size: 1.5rem;">I hold certifications in Python programming and Data Analytics, and I’m proficient in SQL, Power BI, and ETL workflows. Combining my engineering mindset with coding and analytics allows me to create smart, data-informed web solutions that deliver real value.</p>
+        </div>
+    </main>
+    {% include 'footer.html' %}
+</body>
+</html>

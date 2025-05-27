@@ -1,0 +1,9 @@
+{% set path = request.path %}
+<header style="background-color: #B8CFCE; padding: 20px; text-align: center;">
+    <nav>
+        <a href="/" class="{% if path == '/' %}active{% endif %}">Home</a> |
+        <a href="/about" class="{% if path == '/about' %}active{% endif %}">About</a> |
+        <a href="/contact" class="{% if path == '/contact' %}active{% endif %}">Contact</a> |
+        <a href="/resume" class="{% if path == '/resume' %}active{% endif %}">Resume</a>
+    </nav>
+</header>
